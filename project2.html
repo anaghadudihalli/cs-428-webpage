@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>CS 428 - Anagha Dudihalli</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="mt-3 col-md-11 mx-auto">
+                    <h1>Project 2: In the Land of Make Believe</h1>
+                    <br>
+                    <br>
+                    <h3 style="color: turquoise; text-align: center;">Introduction</h1>
+                        <p>In this project we are exploring a bit and envisioning on how our future would look like with AR glasses and how that can be used to interact with AR playsets, doll sets, both small and lifesize.
+                        </p>
+                        <p>Playing with different playsets, like kitchen sets, doll houses, garage sets have been a part of every child. As kids, we all played excitedly with our house sets for one day, two days? and then it lay around somewhere in the corner. But with AR, kids can never get bored and don't have to deal with just one set of playset. You can keep switching around, try new ones as long as you wish!</p>
+                        <p>In this project I have created a similar living room playset. It has a mini me in the living room salsa dancing. (As a kid, I would have loved to play with a mini me. How fascinating is it to see your own mini version? Everyone can be a barbie now!) There are many things present in the living room which you usually find in living rooms - TV, TV set, Couch, coffee table, coffee, books on the couch and more! There are several animated objects as well. On pressing the button, the avatar introduces you to the house and goes back to dancing! (She sure loves dancing!) At any point in the tablesize playset, you can click using the mouse and a number of balls fall, bouncing around the set demonstrating the physics built into the set. Adding physics definitely makes it more immersive.</p>
+                        <p>And finally, you can size it up to lifesize and play with a lifesize version of you! (Seeing a twin-you wish just got real!)</p>
+                        <hr>
+                        <h3 style="color: turquoise; text-align: center;">Demo Video:</h1>
+                            <br>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/hzBnV0emUkQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            <br>
+                            <br>
+                            <h3 style="color: turquoise; text-align: center;">Source Code:</h1><a href="https://github.com/anaghadudihalli/cs428-project2" target="_blank">Github</a>
+                                <br>
+                                <br>
+                                <h3 style="color: turquoise; text-align: center;">Tools Used:                                </h1>
+                                <li><a href='https://unity.com/' target="_blank">Unity Game Engine (Version 2019.4.1f1)</a></li>
+                                <li><a href='https://developer.vuforia.com/downloads/sdk' target="_blank">Vuforia (Version 9.4.6)</a></li>
+                                <li><a href='https://www.mixamo.com/' target="_blank">Mixamo</a></li>
+                                <li><a href='http://www.makehumancommunity.org/content/downloads.html' target="_blank">MakeHuman (Version 1.1.1)</a></li>
+
+
+                                <h3 style="color: turquoise; text-align: center;">How to use:</h3>
+                                <br>
+                                <br>
+                                <ol>
+                                    <li>Please install the above mentioned versions of Unity and Vuforia</li>
+                                    <li>Download the zip folder of the project from <a href="https://github.com/anaghadudihalli/cs428-project2" target="_blank">Github</a></li>
+                                    <li>Open the project in Unity.</li>
+                                    <li>If MacOs throws the error " “VuforiaWrapper.bundle” cannot be opened because the developer cannot be verified.", please follow the instructions <a href='https://support.apple.com/en-us/HT202491' target="_blank">here</a></li>
+                                    <li>Assets->Scenes should have two scenes -tabletop and lifesize.</li>
+                                    <li>To run tabletop version of the playset, drag the tabletop scene and hit play.</li>
+                                    <li>To run lifesize version of the playset on Android: 
+                                        <ul>
+                                            <li>Delete tabletop scene and drag lifesize scene from Assets->Scenes into the hierarchy.</li>
+                                            <li>Go to File->Build Settings</li>
+                                            <li>Click on Android and Switch Platform</li>
+                                            <li>Connect your Android device using a cable, and select the device under 'Run Device'. You might need to refresh.</li>
+                                            <li>Click on Build and Run</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                                <h3 style="color: turquoise; text-align: center;">Assets:</h3>
+                                <br>
+                                    <ul>
+                                        <li>Avatar 1 Skirt: <a href="http://www.makehumancommunity.org/clothes/retro_polka_dot_skirt.html" target="_blank">Makehuman community</a></li>
+                                        <li>Avatar 1 sweater: <a href="http://www.makehumancommunity.org/clothes/blouse.html" target="_blank">Makehuman community</a></li>
+                                        <li>Avatar 2 clothes: <a href="http://www.makehumancommunity.org" target="_blank">Default clothes provided by MakeHuman</a></li>
+                                        <li>Living room (just the walls and floor): <a href="https://3dwarehouse.sketchup.com/model/0096550e-d716-4e4b-a1ce-09023dfcabd7/Mancave-Apartment" target="_blank">3D Warehouse</a></li>
+                                        <li>TV stand: <a href="https://3dwarehouse.sketchup.com/model/8b06eb8f-a821-4cd8-bb60-60b8e979860e/Monoceros-TV-Stand" target="_blank">3D Warehouse</a></li>
+                                        <li>TV: <a href="https://3dwarehouse.sketchup.com/model/u8606de4e-1f32-44f2-bc58-22a3ac982d83/TV" target="_blank">3D Warehouse</a></li>
+                                        <li>Plants: <a href="https://3dwarehouse.sketchup.com/model/e2641b0f-f411-4113-9dba-e22525e860a3/Plante-57" target="_blank">3D Warehouse</a></li>
+                                        <li>Side table for gem: <a href="https://3dwarehouse.sketchup.com/model/e2641b0f-f411-4113-9dba-e22525e860a3/Plante-57" target="_blank">3D Warehouse</a></li>
+                                        <li>Coffee table: <a href="https://3dwarehouse.sketchup.com/model/6fbcdfe7-16dd-4208-b17f-a7518a66c765/Mia-Coffee-Table" target="_blank">3D Warehouse</a></li>
+                                        <li>Painting: <a href="https://3dwarehouse.sketchup.com/model/46c17725-b29b-48eb-8a8c-c432c3562eb5/Sunrise-Sunset-Painting" target="_blank">3D Warehouse</a></li>
+                                        <li>Gem: <a href="https://assetstore.unity.com/packages/3d/props/simple-gems-ultimate-animated-customizable-pack-73764" target="_blank">3D Warehouse</a></li>
+                                        <li>Books: <a href="https://3dwarehouse.sketchup.com/model/342198a7-90c3-45db-8bf4-a6b63f808022/Books?tab=links" target="_blank">3D Warehouse</a></li>
+                                        <li>Mug: <a href="https://3dwarehouse.sketchup.com/model/10c2b3eac377b9084b3c42e318f3affc/6-mugs-Caf%C3%A9-de-Luxe-Maisons-du-monde-R%C3%A8f127888-Prix-2940%E2%82%AC" target="_blank">3D Warehouse</a></li>
+                                        <li>Animation on the painting: <a href="https://assetstore.unity.com/packages/2d/characters/2d-animated-spaceships-96852" target="_blank">3D Warehouse</a></li>
+                                        <li>Animation on the TV: <a href="https://assetstore.unity.com/packages/2d/characters/2d-animated-spaceships-96852" target="_blank">3D Warehouse</a></li>
+                                        <li>Modern Couch: <a href="https://3dwarehouse.sketchup.com/model/u2cadd1e3-939b-4a9b-bfba-8ba210d8f588/Modern-Couch-Detailed" target="_blank">3D Warehouse</a></li>
+                                        <li>Flag: <a href="https://assetstore.unity.com/packages/3d/props/exterior/racing-flag-animated-145106" target="_blank">3D Warehouse</a></li>
+                                    </ul>
+                                <br>
+                                <br>
+                                <h3 style="color: turquoise; text-align: center;">Sounds:</h3>
+                                <ul>
+                                    <li>Ambient Happy Normal Day music: <a href="http://soundbible.com/1661-Sunny-Day.html">Soundbible</a></li>
+                                </ul>
+                                <h3 style="color: turquoise; text-align: center;">Screenshots:</h3>
+
+                            
+                    <img src="./pictures/p2/basicplayset.png" width="100%">
+                    <p>Screenshot showing the playset.</p>
+                    <img src="./pictures/p2/buttonpress.png" width="100%">
+                    <p>Pressing on the button to make the Avatar speak</p>
+                    <img src="./pictures/p2/talking.png" width="100%">
+                    <p>On the button press, the animation changes from dancing to talking. And the avatar introduces user to the house.</p>
+                    <img src="./pictures/p2/ballfalling.png" width="100%">
+                    <p>On mouse click, the balls fall from the sky bouncing off the couch, table, avatar and all the objects in the scene.</p>
+                    <img src="./pictures/p2/ballfallingdown.png" width="100%">
+                    <p>Balls falling off the table.</p>
+                    <img src="./pictures/p2/squatting.png" width="100%">
+                    <p>The same avatar in different clothing and animation.</p>
+                    <img src="./pictures/p2/lifesize1.jpeg" width="49%">
+                    <img src="./pictures/p2/lifesize2.jpeg" width="49%">
+                    <p>The app running in lifesize on a mobile application</p>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 style="color: turquoise; text-align: center;">Thoughts on AR playsets</h1>
+                        <br>
+                        <p>Augmented Reality can completely change the world how we see it. The opportunities are ample and can be used in almost everything. We can just point our mobile phone (or just look at it with AR glasses) at anything we wish and see all the information we require. 
+                        </p>
+                        <p>Playing with different playsets, like kitchen sets, doll houses, garage sets have been a part of every child. As kids, we all played excitedly with our house sets for one day, two days? and then it lay around somewhere in the corner. But with AR, kids can never get bored and don't have to deal with just one set of playset. You can keep changing your playsets, switching around, try new ones as long as you wish! Do you want to be in Marvel Cinematic Universe, be so, or are you a DC fan, and want to be with Batman? do you want to be with Elsa in Frozen? Please yourself!. Every possibilty is possible, since it doesn't have to be limited by actual physical product's manufacturing. AR playsets are also way more portable than the traditional physical ones.Though Traditional playsets though are more tangible, AR playsets will immerse them into the scene. With the sound affects, it sure puts them into the scene. Kids are very imaginative and they would love an extra dimension (sound) that makes it more immersive.
+                        </p>
+                        <p>It can be quite creepy or extremely interesting or both to play with a figure that looks like them. People would love to create their ideal selfs, play with their ideal selfs, act as god (when interacting with smaller version of them) for their own lives in the playset. There are very popular and best selling games like The SIMS where MANY people do create sims that looks like them, because it's fun. It makes it more relatable. There definitely is demand for such a product. Having it in AR will definitely make it more immersive and wanted. It can also fulfill children's fantasy of having a twin sibling if they didn't. Having a lifesize figure of them might make them experience that which they wouldn't have been able to otherwise. </p>
+                        <p>And while having your own version can be very tempting and exciting, it doesn't have to be limited to that. So this product can be used by people who would find this creepy or someone who won't. If people do find it weird, they can change the avatar to anything they want. Real, fictional or imaginary. You can have your entire family in the set, be on a your vacation with your family or your favorite superhero on a beach. It can be as realistic as you want or as absurd and imaginary if you like. There are no limitations to your imagination which translates to the AR playsets. Physical sets often have that limitation since they are tangible. 
+                        </p>
+                        <p>But like anything else, this needs to be well moderated as well before it ships. There are many cases in Youtube Kids where the videos while have cartoons, are violent or makes them say stuff that's not appropriate for kids. Heavy quality control will be needed as kids would directly interact with these. But In conclusion, I think AR playsets have a lot of potential and can see kids playing with them in the future.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
