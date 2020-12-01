@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <title>CS 428 - Anagha Dudihalli</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="mt-3 col-md-11 mx-auto">
+                    <h1>Project 3: School's out</h1>
+                    <br>
+                    <br>
+                    <h3 style="color: turquoise; text-align: center;">Introduction</h1>
+                        <p>In this project I created a dream classroom in Virtual Reality. Since, this entire semester was work/study-from-home, I surely missed this.
+                        </p>
+                        Things you can do with it:
+                        <ul>
+                            <li>My avatar's desk: There's the avatar me sitting on her desk with many objects around her that she wishes she carries with her to classes generally. The desk has 11 small objects. A laptop, an ipad, a plate, a Sandwich, a coke can, a notebook, a pen, a coffee cup, a mobile phone, a water bottle and an ipod. All the small objects can be grabbed and dropped.</li>
+                            <li>It's a dream classroom, so the theme of the classroom is a recreational, fun classroom.</li>
+                            <li>There are many large objects in the classroom. There is a printer, dance floor, speaker, vending machine, recliner (if normal chairs aren't your thing), foosball, a normal table, a projector, espresso machine that gives you a cup of coffee on touching, and a computer that turns on on touching.</li>
+                            <li>There's a new lighting scheme (DJ lights) to go along with the fun theme. There are a set of switches to control these lights.</li>
+                            <li>The user can shrink down to a small size and get back to the normal size using buttons on the controller.</li>
+                        </ul>
+
+                        <hr>
+                        <h3 style="color: turquoise; text-align: center;">Demo Video:</h1>
+                            <br>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HGmg54oHeSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                            <br>
+                            <h3 style="color: turquoise; text-align: center;">Source Code:</h1><a href="https://github.com/anaghadudihalli/virtual-reality-dream-classroom" target="_blank">Github</a>
+                                <br>
+                                <br>
+                                <h3 style="color: turquoise; text-align: center;">Tools Used:</h1>
+                                <li><a href='https://unity3d.com/get-unity/download/archive' target="_blank">Unity Game Engine (Version 2019.4.1f1)</a></li>
+                                <li><a href='https://github.com/ExtendRealityLtd/VRTK/tree/3.3.0' target="_blank">VRTK v3.3</a></li>
+                                <li><a href='http://www.makehumancommunity.org/content/downloads.html' target="_blank">MakeHuman v1.1.1</a></li>
+                                <li><a href='https://www.mixamo.com/' target="_blank">Mixamo</a></li>
+                                <li><a href='https://www.blender.org/download/' target="_blank">Blender v2.83</a></li>
+
+
+
+                                <h3 style="color: turquoise; text-align: center;">How to use:</h3>
+                                <br>
+                                <br>
+                                <ol>
+                                    <li>Please install the above mentioned version of Unity. All required files for VRTK are included in the project.</li>
+                                    <li>Download the zip folder of the project from <a href="https://github.com/anaghadudihalli/virtual-reality-dream-classroom" target="_blank">Github</a></li>
+                                    <li>Open the project in Unity.</li>
+                                    <li>If the scene isn't loaded by default, go to Assets->virtualuic-evl->Scenes. Drag the 'EVL' scene into the hierarchy.</li>
+                                    <li>If you get a Steam popup when you play the scene just click Ignore All and it should go away. If not, go to the VRTL_SDKManager gameobject in the heirarchy and its VRTK_SDK Manager child. Under available SDKs, remove SteamVR.</li>
+                                    <li>Though the project supports VR headsets SDKs like SteamVR, OculusVR, Unity etc, since I do not own one, I cannot vouch for the project's working and compatibility using a headset. It can always be run using the VRTK simulator.</li>
+                                    <li>Hit Play.
+                                    </li>
+                                </ol>
+                                <h3 style="color: turquoise; text-align: center;">VRTK Simulator key bindings:</h3>
+                                <br>
+                                <br>
+                                <ol>
+                                    <li>WASD keys for movement in four directions</li>
+                                    <li>Q to teleport to a location</li>
+                                    <li>Alt to use the controllers. Left click to grad a grabbable object and left click again to release it.</li>
+                                    <li>In controller mode, you can move along the axes using Control and Alt. Tab to switch between the left and right controllers.</li>
+                                    <li>E to switch to shrink to a small size.</li>
+                                    <li>R to get back to the normal size.
+                                    </li>
+                                </ol>
+                                <h3 style="color: turquoise; text-align: center;">Assets:</h3>
+                                <br>
+                                    <ul>
+                                        <li>Avatar Skirt: <a href="http://www.makehumancommunity.org/clothes/retro_polka_dot_skirt.html" target="_blank">Makehuman community</a></li>
+                                        <li>Avatar Blouse: <a href="http://www.makehumancommunity.org/clothes/blouse.html" target="_blank">Makehuman community</a></li>
+                                        <li>All other Makehuman models' clothes: <a href="http://www.makehumancommunity.org" target="_blank">Default clothes provided by MakeHuman</a></li>
+                                        <li>Laptop: <a href="https://3dwarehouse.sketchup.com/model/3553fa95defa181d1a3f5741c5bd5875/Laptop" target="_blank">3D Warehouse</a></li>
+                                        <li>Water bottle: <a href="https://3dwarehouse.sketchup.com/model/46b5318e39afe48a30eaaf40a8a562c1/Water-Bottle" target="_blank">3D Warehouse</a></li>
+                                        <li>Papercup coffee: <a href="https://3dwarehouse.sketchup.com/model/45d26941-bb8e-4396-bfff-4d036fb3394b/papercup-coffee" target="_blank">3D Warehouse</a></li>
+                                        <li>iPad: <a href="https://3dwarehouse.sketchup.com/model/c7f64c1b-ab55-47b2-a250-aa471b597918/iPad" target="_blank">3D Warehouse</a></li>
+                                        <li>Backpack: <a href="https://3dwarehouse.sketchup.com/model/d19246fb-ca47-461f-bd14-684abbeb197e/Backpack-Boot" target="_blank">3D Warehouse</a></li>
+                                        <li>Notebook: <a href="https://3dwarehouse.sketchup.com/model/7de5cba5-9af5-419a-a270-8b87582e0ff3/Notebook-01" target="_blank">3D Warehouse</a></li>
+                                        <li>Pen: <a href="https://3dwarehouse.sketchup.com/model/8910c7b5a022234e9a08db804545b684/Pen" target="_blank">3D Warehouse</a></li>
+                                        <li>Plate: <a href="https://3dwarehouse.sketchup.com/model/f237d9ae24c728f44a7dc8b5b1635d46/plate" target="_blank">3D Warehouse</a></li>
+                                        <li>Sandwich: <a href="https://3dwarehouse.sketchup.com/model/5de9363ceed7c9bec73d0b6e2e584e57/Sub-sandwich" target="_blank">3D Warehouse</a></li>
+                                        <li>Coke can: <a href="https://3dwarehouse.sketchup.com/model/78939da1226d966d980e03c389be3f7c/coke-can" target="_blank">3D Warehouse</a></li>
+                                        <li>Mobile phones: <a href="https://3dwarehouse.sketchup.com/model/6fb2edb2-38a3-46cb-8bf5-b8f831605492/Mobiles" target="_blank">3D Warehouse</a></li>
+                                        <li>iPod: <a href="https://3dwarehouse.sketchup.com/model/5b37603561b7d6e2b0a79e28606cb167/ipod-nano" target="_blank">3D Warehouse</a></li>
+                                        <li>Dance Floor: <a href="https://3dwarehouse.sketchup.com/model/u7b97225e-39f6-44d1-b24e-9c3fda070180/Dance-floor" target="_blank">3D Warehouse</a></li>
+                                        <li>Computer: <a href="https://3dwarehouse.sketchup.com/model/f2a4333e9481661e9ae79987a19b8dbf/Desktop-Computer" target="_blank">3D Warehouse</a></li>
+                                        <li>Printer: <a href="https://3dwarehouse.sketchup.com/model/f065815f98d3f2e52711ed0adf8251d4/HP-Printer" target="_blank">3D Warehouse</a></li>
+                                        <li>Vending Machine: <a href="https://3dwarehouse.sketchup.com/model/798a52ea-209c-41ab-84bc-40415509580b/Vending-Machine" target="_blank">3D Warehouse</a></li>
+                                        <li>Speaker: <a href="https://3dwarehouse.sketchup.com/model/8ea40449df27b2ec3458df83fdf8604e/speaker" target="_blank">3D Warehouse</a></li>
+                                        <li>Table: <a href="https://3dwarehouse.sketchup.com/model/048875eb-4db7-46f7-8d35-b7803911d714/table-stockholm" target="_blank">3D Warehouse</a></li>
+                                        <li>Espresso Machine: <a href="https://3dwarehouse.sketchup.com/model/ud28efea3-5002-4f43-8ffc-3ba78ff9325e/EspressoMachine" target="_blank">3D Warehouse</a></li>
+                                        <li>Foosball: <a href="https://3dwarehouse.sketchup.com/model/a3462d788ebb97826b40dc6031c03ede/Foosball-table-30-x-56" target="_blank">3D Warehouse</a></li>                                    
+                                        <li>Projector: <a href="https://3dwarehouse.sketchup.com/model/u04089321-adb6-43ae-b27c-e9f153fa09ff/Projector" target="_blank">3D Warehouse</a></li>                                    
+                                        <li>Recliner: <a href="https://3dwarehouse.sketchup.com/model/8fc4bb0ebf036a7381d2962fb637893d/Recliner" target="_blank">3D Warehouse</a></li>                                                                        
+                                    </ul>
+                                <br>
+                                <br>
+                                <h3 style="color: turquoise; text-align: center;">Sounds:</h3>
+                                <ul>
+                                    <li>Page turning sound: <a href="http://soundbible.com/2066-Page-Turn.html" target="_blank">Soundbible</a></li>
+                                    <li>Sentences spoken by women in the classroom: Recorded by me</li>
+                                    <li>Sentences spoken by men in the classroom: Clip spoken by <a href="https://www.naturalreaders.com/online/" target="_blank">Natural Readers Online</a></li>
+                                </ul>
+                                <h3 style="color: turquoise; text-align: center;">Screenshots:</h3>
+
+                            
+                    <img src="./pictures/p3/1.png" width="100%">
+                    <p>My desk in the scene. It has 11 small objects. A laptop, an ipad, a plate, a Sandwich, a coke can, a notebook, a pen, a coffee cup, a mobile phone, a water bottle and an ipod.</p>
+                    <img src="./pictures/p3/2.png" width="100%">
+                    <p>All small objects can be grabbed and dropped.</p>
+                    <img src="./pictures/p3/3.png" width="100%">
+                    <p>All students change their animation and speak something when you get closer.</p>
+                    <img src="./pictures/p3/4.png" width="100%">
+                    <p>Large objects - Printer, Speaker. All large objects have colliders and gravity but they can't be grabbed. There are a total of 10 large objects.</p>
+                    <img src="./pictures/p3/5.png" width="100%">
+                    <p>Large objects - Dance Floor</p>
+                    <img src="./pictures/p3/6.png" width="100%">
+                    <p>Large objects - Vending Machine, Recliner, foosball and a normal table.</p>
+                    <img src="./pictures/p3/7.png" width="100%">
+                    <p>Large objects - Desktop computer. When touched, the screen turns on.</p>
+                    <img src="./pictures/p3/8.png" width="100%">
+                    <p>Large objects - Espresso machine and projector. When espresso machine is touched, a cup (of coffee) appears.</p>
+                    <img src="./pictures/p3/9.png" width="100%">
+                    <p>New lighting scheme - DJ lights</p>
+                    <img src="./pictures/p3/10.png" width="100%">
+                    <p>User scaled down, and seeing the scene from that scale.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 style="color: turquoise; text-align: center;">Thoughts on interacting in a VR world on 1:1 scale.</h1>
+                        <br>
+                        <p>Interacting, talking to, seeing others in this pandemic era is going to bridge a huge gap of not being able to see others physically. You no longer need to be in the same room to see and meet others. Video calls have already revolutionized the world so much that otherwise would have been tough being an international student in the US with family many timezones away. As this pandemic continues I can see increased used of Virtual Reality and its adoption. It may get very well integrated in the future, just like video calls have.
+                        </p>
+                        <p>Imagine if all the Zoom and Microsoft teams calls can be done in the same way but in VR. We don't have to go to office anymore and can still work with our colleagues as though we were sitting next to each other. It's a safe yet makes people feel connected to each other. This can be achieved perfectly with VR since it's so immersive. Collaboration also can be very effective in VR if we have a common whiteboard or TV like in this project.
+                        </p>
+                        <p>Not just working and studying, but because of the pandemic travel has been restricted to a great extent as well. Not just during a pandemic, but even normally it's not possible for all people to travel the world. That may be either financial limitations, time limitations or physical and bodily limitations. VR eliminates all of these issues. </p>
+                        <p>There was a project released by Facebook where Facebook executives visited disaster hit places to provide them solace. This can be a great way to help people in their problems, at least emotionally by being there if not anything else.
+                        </p>
+                        <p>But there are some cons as well.  For this to work properly, it needs to be implemented properly. If we implement an application that does VR but has no physics, it will not be related to the actual world. It needs to have proper physics so that humans feel it to be natural. The application needs to have very high frame rates to not cause sickness, build proper tech to avoid body disorientation and should have no glitches.The experience can be made better by using technologies like Haptic suits, like the bHaptics Tactsuit that I demonstrated. The models also need to improve a bit as the current ones may look like more doll-like and sometimes creepy. </p>
+                        <p>Another problem is what if people stop communicating for real and just rely on Virtual Reality? Though it can be a great facilitator, we see how sometimes technology makes people more disconnected by making them not explore the real world. What if after the pandemic ends, people get too distant? VR headsets also need to become lighter.</p>
+
+                            <p>If all these issues are fixed, I think it will be a great help for people in the future.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
